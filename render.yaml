@@ -3,7 +3,7 @@ services:
     name: go
     runtime: docker
     plan: free
-    repo: https://github.com/godra-y/Golang-Project
+    repo: https://github.com/Altynbek38/go-test
     region: frankfurt
     branch: main
     envVars:
@@ -17,4 +17,4 @@ services:
         sync: false
     buildFilter:
       paths:
-        - ./cmd/api
+        - app/**
